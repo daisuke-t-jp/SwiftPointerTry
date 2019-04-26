@@ -92,7 +92,7 @@ func testInitializeAndDeinitialize() {
 
 func testInitializeAndMove() {
   print("# \(#function)")
-
+  
   do {
     let p = UnsafeMutablePointer<Mock>.allocate(capacity: 1)
     defer {
